@@ -18,4 +18,4 @@ The API functions usually return massive maps. There is no way in red hot hell t
 
 ## Installation
 
-In cake or leiningen: `:dependencies [[ororo "0.1.0]]`.
+In cake or leiningen: `:dependencies [[ororo "0.1.0-alpha1"]]`.
