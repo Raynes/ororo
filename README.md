@@ -6,7 +6,7 @@ It currently implements all of the [Wunderground Weather API](http://www.wunderg
 
 ## Usage
 
-Ororo defines a function for each API 'feature'. Each API function (with the exception of `history` takes two arguments: **key** and **location**.
+Ororo defines a function for each API 'feature'. Each API function (with the exception of `history`) takes two arguments: **key** and **location**.
 
 **key** is an API key for the wunderground API. You can get one of these keys instantly for free by signing up on the [website](http://api.wunderground.com/weather/api). API keys are free for non-commercial and lower-end usage.
 
