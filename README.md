@@ -18,7 +18,7 @@ The API functions usually return massive maps. There is no way in red hot hell t
 
 ### Examples
 
-*Note that I was stupid enough to commit my real API key below. Rather than bother fixing the repo (by breaking its history), I simply regenerated my key. As a result, the above examples won't work unless you replace my key with one of your own.*
+*Note that I was stupid enough to commit my real API key below. Rather than bother fixing the repo (by breaking its history), I simply regenerated my key. As a result, the below examples won't work unless you replace my key with one of your own.*
 
     user=> (use 'ororo.core)
     nil
