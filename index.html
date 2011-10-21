@@ -2526,7 +2526,7 @@ $(document).ready(function() {
     ul.css('margin-top', '0px')
 
 })
-</script><title>ororo -- Marginalia</title></head><body><table><tr><td class="docs"><div class="header"><h1 class="project-name">ororo</h1><h2 class="project-version">0.1.0-alpha1</h2><br /><p>A Wunderground API library.</p>
+</script><title>ororo -- Marginalia</title></head><body><table><tr><td class="docs"><div class="header"><h1 class="project-name">ororo</h1><h2 class="project-version">0.1.0-alpha2</h2><br /><p>A Wunderground API library.</p>
 </div><div class="dependencies"><h3>dependencies</h3><table><tr><td class="dep-name">org.clojure/clojure</td><td class="dotted"><hr /></td><td class="dep-version">1.3.0</td></tr><tr><td class="dep-name">org.clojure/data.json</td><td class="dotted"><hr /></td><td class="dep-version">0.1.2</td></tr><tr><td class="dep-name">clj-http/clj-http</td><td class="dotted"><hr /></td><td class="dep-version">0.2.1</td></tr></table></div></td><td class="codes" style="text-align: center; vertical-align: middle;color: #666;padding-right:20px"><br /><br /><br />(this space intentionally left almost blank)</td></tr><tr><td class="docs"><div class="toc"><a name="toc"><h3>namespaces</h3></a><ul><li><a href="#ororo.core">ororo.core</a></li></ul></div></td><td class="codes">&nbsp;</td></tr><tr><td class="docs"><div class="docs-header"><a class="anchor" href="#ororo.core" name="ororo.core"><h1 class="project-name">ororo.core</h1><a class="toc-link" href="#toc">toc</a></a></div></td><td class="codes" /></tr><tr><td class="docs"><p>Ororo is a library for working with the wunderground API. The API is pretty simple and
 not too large, so it can mostly be done automatically. Some pieces are a bit inconsistent
 and are implemented differently.</p>
@@ -2609,7 +2609,7 @@ docstrings in <code>def</code>.</p>
 </td><td class="codes" /><pre class="brush: clojure">(def yesterday &quot;Returns a summary of the observed weather history for yesterday.&quot;
   (api-fn :yesterday :history))</pre></tr><tr><td class="docs">
 </td><td class="codes" /><pre class="brush: clojure">(def hourly-seven-day &quot;Returns an hourly forecast for the next 7 days.&quot;
-  (api-fn :hourly7day :hourly_fourecast))</pre></tr><tr><td class="docs">
+  (api-fn :hourly7day :hourly_forecast))</pre></tr><tr><td class="docs">
 </td><td class="codes" /><pre class="brush: clojure">(def forecast-seven-day
   &quot;Returns a summary of the weather for the next 7 days. This includes high and
    low temperatures, a string text forecast, and the conditions.&quot;
