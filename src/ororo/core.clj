@@ -98,7 +98,7 @@
   (api-fn :yesterday :history))
 
 (def hourly-seven-day "Returns an hourly forecast for the next 7 days."
-  (api-fn :hourly7day :hourly_fourecast))
+  (api-fn :hourly7day :hourly_forecast))
 
 (def forecast-seven-day
   "Returns a summary of the weather for the next 7 days. This includes high and
