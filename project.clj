@@ -1,4 +1,4 @@
-(defproject ororo "0.1.0-alpha1"
+(defproject ororo "0.1.0-alpha2"
   :description "A Wunderground API library."
   :dependencies [[clojure "1.3.0"]
                  [org.clojure/data.json "0.1.2"]
