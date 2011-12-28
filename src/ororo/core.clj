@@ -39,7 +39,7 @@
    a location, and a 'sifting' function that will be applied to the resulting map."
   [key features location sift-fn]
   (-> (create-url key features location)
-      http/get
+      (http/get {:headers {"Accept-Encoding" ""}})
       :body
       read-json
       (sift sift-fn)))
